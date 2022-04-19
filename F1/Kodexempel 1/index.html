@@ -1,0 +1,25 @@
+<script>
+'use strict';
+
+function myFunction() {
+  console.log(1);
+}
+
+function boom() {
+  console.log(2);
+}
+
+function init() {
+  console.log(3);
+}
+
+function doStuff() {
+  console.log(4);
+}
+
+window.addEventListener('load', init);
+  console.log(5);
+setTimeout(boom, 10*1000);
+setTimeout(doStuff, 5*1000);
+
+</script>
